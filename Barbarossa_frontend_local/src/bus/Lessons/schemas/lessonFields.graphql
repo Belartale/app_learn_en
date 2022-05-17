@@ -1,0 +1,10 @@
+fragment lessonFields on Lesson {
+    _id
+    lessonNumber
+    title
+    description
+    tests(populate: true) {
+        _id
+        testNumber
+    }
+}
