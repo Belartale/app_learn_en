@@ -1,6 +1,0 @@
-fragment testFields on Test {
-    _id
-    testNumber
-    title
-    description
-}

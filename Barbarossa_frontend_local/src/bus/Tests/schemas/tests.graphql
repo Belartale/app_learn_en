@@ -1,7 +1,0 @@
-#import "./testFields.graphql"
-
-query Tests {
-  tests {
-    ...testFields
-  }
-}

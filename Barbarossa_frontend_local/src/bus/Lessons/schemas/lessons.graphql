@@ -1,7 +1,0 @@
-#import "./lessonFields.graphql"
-
-query Lessons {
-    lessons {
-        ...lessonFields
-    }
-}
